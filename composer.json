@@ -1,0 +1,22 @@
+{
+    "name": "dennissmink/laravel-ftp",
+    "authors": [
+        {
+            "name": "Shokry Mohamed",
+            "email": "sms.shokry.mohamed@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "illuminate/support": "^10.3"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "LaravelFtp": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
